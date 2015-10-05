@@ -217,7 +217,7 @@ sub fetchMarkDownHTML {
 
 
 sub genTopBAR {
-my ($mainMenu,$miniMenu) = genTopMenu($AWS{'qsPageACTIVE'},"landing:start;Start;","md:docs:index;Documentation;");
+my ($mainMenu,$miniMenu) = genTopMenu($AWS{'qsPageACTIVE'},"landing:start;Start;","md:docs;Documentation;","md:community;Community;");
 	print <<"EOF";
 <!-- TopBAR START -->
 <div class="mini_top_bar-outerDIV"><div class="mini_top_bar-innerDIV"><table class="main_top_bar-TABLE">
