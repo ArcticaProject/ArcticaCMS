@@ -268,7 +268,7 @@ sub genFooter {
 	<div class="footer_gray_bar-innerDIV">
 		<div class="footer_BackToTopBTN" onClick=\"location.href=\'#theVeryTOP\'\">to the top</div>
 		<div class="footer_main_contentDIV">
-			<br><h3>A new project is being born... </h3>Watch it grow... Join us now on Freenode IRC (#arctica).<br>
+			<br><h3>A new project is being born... </h3>Watch it grow... Join us now on Freenode IRC (#arctica).<br><br>
 	<!--img src="/Aquicon-RSS.png" height="64" border="0" alt="rss feed"-->
 <br>
 		</div>
