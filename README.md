@@ -4,9 +4,9 @@
 
 # Copyright
 
-Copyright 2015, gznget <opensource@gznianguan.com>
+Copyright 2014-2015, gznget <opensource@gznianguan.com>
 
-Copyright 2015, Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
+Copyright 2014-2015, Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
 
 # License
 
