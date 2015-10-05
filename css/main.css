@@ -1,0 +1,253 @@
+@font-face {
+	font-family: 'DroidSans';
+	src:	url('/media/fonts/DroidSans.eot');
+	src:	url('/media/fonts/DroidSans.eot') format('embedded-opentype'),
+		url('/media/fonts/DroidSans.woff2') format('woff2'),
+		url('/media/fonts/DroidSans.woff') format('woff'),
+		url('/media/fonts/DroidSans.ttf') format('truetype'),
+		url('/media/fonts/DroidSans.svg#DroidSans') format('svg');
+}
+
+
+BODY {
+	font-family: 'DroidSans', sans-serif;
+	padding: 0;
+	margin: 0;
+	font-size:12pt;
+	background-color: #000000;
+	background-image:url("/media/static/layout/NONFREE_BigBG1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position:  center top;
+	background-size: 100% auto;
+}
+
+A {
+	text-decoration:none;
+	color:  #111111;
+}
+
+
+.mini_top_bar-outerDIV {
+	padding: 2;
+	margin: 0;
+	background-color: #111111;
+	color: #ffffff;
+ position: fixed; 
+	vertical-align: top;
+	width: 100%;
+/*	height: 2px;*/
+}
+
+.mini_top_bar-innerDIV {
+	vertical-align: top;
+	width: 100%;
+	max-width:1350px;
+	margin: 0 auto;
+}
+
+.mini_top_bar-logoDIV {
+	font-size: 70%;
+	margin-left: 20px;
+
+}
+
+.mini_top_bar-menuDIV {
+}
+
+.mini_top_bar-topMenuUL {
+	list-style-type:none;
+	margin: 0px 15px 0px 15px;
+	padding: 0px 15px 0px 15px;
+
+}
+
+
+
+.mini_top_bar-topMenuLI {
+	display:inline;
+	color: #eeeeee;
+	margin: 0px 15px 0px 15px;
+	white-space: nowrap;
+	-webkit-transition: color 0.15s ease-in-out;
+	-moz-transition: color 0.15s ease-in-out;
+	-o-transition: color 0.15s ease-in-out;
+	-ms-transition: color 0.15s ease-in-out;
+	transition: color 0.15s ease-in-out;
+}
+
+.mini_top_bar-topMenuLI:hover {
+	cursor: pointer;
+	color: #0099dd;
+}
+
+
+
+.main_top_bar-outerDIV {
+	padding: 0;
+	margin: 0;
+	background-color: #111111;
+	width: 100%;
+position: relative; 
+  z-index: 3000;
+}
+
+.main_top_bar-innerDIV {
+	width: 100%;
+	max-width:1350px;
+	margin: 0 auto;
+}
+
+.main_top_bar-TABLE {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+.main_top_bar-projectLogoTD {
+
+}
+
+.main_top_bar-projectLogoDIV {
+	margin-left: 20px;
+}
+
+.main_top_bar-topMenuTD {
+
+}
+
+.main_top_bar-topMenuDIV {
+
+}
+
+.main_top_bar-topMenuUL {
+	list-style-type:none;
+	margin:15px;
+	padding:10px;
+}
+
+
+
+.main_top_bar-topMenuLI {
+	display:inline;
+	color: #eeeeee;
+	margin:15px;
+	white-space: nowrap;
+	-webkit-transition: color 0.15s ease-in-out;
+	-moz-transition: color 0.15s ease-in-out;
+	-o-transition: color 0.15s ease-in-out;
+	-ms-transition: color 0.15s ease-in-out;
+	transition: color 0.15s ease-in-out;
+}
+
+.main_top_bar-topMenuLI:hover {
+	cursor: pointer;
+	color: #0099dd;
+}
+
+.mainTopMenuTextSPAN_NOTA {
+
+}
+
+.mainTopMenuTextSPAN_ISA {
+	color: #0099dd;
+}
+
+.theLogoTextSMALL {
+	color: #e2e2e2; 
+	font-size: 120%;
+}
+
+.theLogoTextBIG {
+	color: #e2e2e2; 
+	font-size: 140%;
+}
+
+.footer_main_skinny_separator_DIV {
+	width: 100%;
+	background-color: #666666;
+	color: #111111;
+	font-size: 80%;
+	height: 3px;"
+}
+
+.footer_main_footer_area_DIV {
+	background-color: #222222;
+	color: #e2e2e2;
+	font-size: 120%;
+	width: 100%;
+	background-image:url("/media/static/layout/BottomFuzz.png");
+}
+
+.footer_gray_bar-innerDIV {
+	width: 100%;
+	max-width:1350px;
+	margin: 0 auto;
+}
+
+.footer_main_contentDIV {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.footer_BackToTopBTN {
+	width: 100px;
+	background-color: #666666;
+	color: #111111;
+	font-size: 80%;
+	text-align: center;
+	float:right;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius: 5px;
+	cursor: pointer;
+}
+
+
+.footer_copyright_notice_barDIV {
+	width: 100%;
+	text-align: center;
+	background-color: #000000;
+	color: #e2e2e2;
+	font-size: 80%
+}
+
+/*landingPageBigBannerOuterDIV {margin: 0;}*/
+.landingPageBigBannerOuterDIV {
+  width: 100%;height: 100%;
+}
+
+.landingPageBigBannerOuterImgDIV {
+	margin: 0;
+	background-repeat: no-repeat;
+	background-position:  center top;
+	height: 600px;
+	width: 100%;
+}
+
+.landingPageBigBannerInnerDIV {
+	height: 600px;
+	width: 100%;
+	max-width:1350px;
+	margin: 0 auto;
+}
+
+.landingPageBigBannerOverlayTABLE  {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	height:100%;
+	width:100%;
+}
+
+.landingPageBigBannerOverlayTD {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.landingPageBigBannerTextSPAN {
+	color: #e2e2e2;
+}
+

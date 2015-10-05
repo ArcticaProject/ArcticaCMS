@@ -1,0 +1,91 @@
+
+.verticalMenuUL {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 15px;
+}
+
+.verticalMenuLI {
+	background-repeat: no-repeat;
+	background-position: 0px center;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 15px;
+}
+
+.verticalMenuA {
+	font-size: 110%;
+	text-decoration:none;
+	color:  #111111;
+}
+
+.verticalMenuA:hover {
+	color: #0099dd;
+}
+
+
+.mdtopnavpath {
+	color: #111111;
+	font-size: 100%;
+}
+
+.mdtopnavpathlink {
+	color: #111111;
+}
+
+.mdtopnavpathlink:hover {
+	color: #0099dd;
+}
+
+.md_menutreetoptitle {
+	color: #111111;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.main_markdownarea-outerDIV {
+	padding: 0;
+	margin: 0;
+	
+	width: 100%;
+	vertical-align: top;
+}
+
+
+.footnote-ref {
+	color: #0099dd;
+}
+
+.footnote-backref {
+	color: #0099dd;
+}
+
+.main_markdownarea-innerDIV {
+	width: 100%;
+	background-color: #e2e2e2;
+	color: #111111;
+	font-size: 100%;
+	max-width:1350px;
+	min-height: 750px;
+	margin: 0 auto;
+	padding-top: 20px;
+	vertical-align: top;
+}
+
+.main_markdown_side_menu_outerDIV {
+	margin-left: 20px;
+	margin-right: 20px;
+	vertical-align: top;
+	width: 50%;
+	padding-bottom: 25px;
+	max-width: 260px; display: inline-block;
+}
+
+.the_markdown_container_DIV {
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 100%;
+	vertical-align: top;
+	max-width: 1000px; display: inline-block;
+}
