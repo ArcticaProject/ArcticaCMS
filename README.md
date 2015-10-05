@@ -10,4 +10,6 @@ Copyright 2015, Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
 
 # License
 
-ArcticaCMS has been licensed under AGPL-3.0 (or higher). See COPYING file for the complete license text.
+ArcticaCMS has been licensed under AGPL-3.0 (or higher).
+
+See COPYING file for the complete license text.
