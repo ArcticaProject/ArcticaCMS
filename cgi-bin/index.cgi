@@ -350,7 +350,7 @@ sub makeMenuList {
 		if (lc($menuData->{$key}{'type'}) eq 'p') {
 			$HTML .= "<li class=\"verticalMenuLI\"><a class=\"verticalMenuA\" href=\"$linkPrefix/$menuData->{$key}{'name'}.html\" $mouseOverDescription>$menuData->{$key}{'title'}</a></li>\n";
 		} elsif (lc($menuData->{$key}{'type'}) eq 'd') {
-			$HTML .= "<li class=\"verticalMenuLI\"><a class=\"verticalMenuA\" href=\"$linkPrefix/$menuData->{$key}{'name'}/\" $mouseOverDescription>$menuData->{$key}{'title'}/</a></li>\n";
+			$HTML .= "<li class=\"verticalMenuLI\"><a class=\"verticalMenuA\" href=\"$linkPrefix/$menuData->{$key}{'name'}/\" $mouseOverDescription>$menuData->{$key}{'title'}</a></li>\n";
 			if ($menuData->{$key}{'sub'}{'1'}) {
 				$HTML .= makeMenuList($menuData->{$key}{'sub'},"$linkPrefix/$menuData->{$key}{'name'}");
 			}
