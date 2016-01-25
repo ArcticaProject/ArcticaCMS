@@ -109,12 +109,26 @@
 	max-width: 1000px; display: inline-block;
 }
 
-pre, code
+code
 {
-    font-family: Consolas,"Andale Mono WT","Andale Mono","Bitstream Vera Sans Mono","Nimbus Mono L",Monaco,"Courier New",monospace;
-    font-size: 1em;
-    direction: ltr;
-    text-align: left;
-    background-color: #FFF;
-    color: #666;
+	font-family: Consolas,"Andale Mono WT","Andale Mono","Bitstream Vera Sans Mono","Nimbus Mono L",Monaco,"Courier New",monospace;
+	font-size: 1em;
+	direction: ltr;
+	text-align: left;
+	color: darkred;
+}
+
+pre
+{
+	direction: ltr;
+	text-align: left;
+	background-color: #FFF;
+	border-color: #111;
+	border-style: solid;
+	border-width: 1px;
+}
+
+pre code
+{
+	color: #666;
 }
