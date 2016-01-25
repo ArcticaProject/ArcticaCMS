@@ -132,7 +132,7 @@ if (-d $GitHOME) {
 	}
 }
 system($menuGenScript);
-#markdown_py -x footnotes -x fenced_code -o html4
+#markdown_py -x footnotes -x fenced_code -s escape -o html4
 unlink("$tmpDir/aweb_gitget.lock");
 sub preProcessMD {
 	my $mdInFile = $_[0];
@@ -157,7 +157,7 @@ sub convertMDtoMHTML {
 #		my $tmpMHTMLFile0 = genTmpFileName();
 		my $tmpMHTMLFile1 = genTmpFileName();
 		my $tmpMHTMLFile2 = genTmpFileName();
-		system($MarkDownPY,'-q','-x','footnotes','-x','fenced_code','-o','html4','-f',"$tmpDir/$tmpMHTMLFile1.html",$mdInFile);
+		system($MarkDownPY,'-q','-x','footnotes','-x','fenced_code','-s', 'escape', '-o','html4','-f',"$tmpDir/$tmpMHTMLFile1.html",$mdInFile);
 		if (-f "$tmpDir/$tmpMHTMLFile1.html") {
 #	print "INCONVERT 3\n";
 			open(THTML,"$tmpDir/$tmpMHTMLFile1.html");
