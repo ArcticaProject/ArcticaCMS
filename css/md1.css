@@ -108,3 +108,13 @@
 	vertical-align: top;
 	max-width: 1000px; display: inline-block;
 }
+
+pre, code
+{
+    font-family: Consolas,"Andale Mono WT","Andale Mono","Bitstream Vera Sans Mono","Nimbus Mono L",Monaco,"Courier New",monospace;
+    font-size: 1em;
+    direction: ltr;
+    text-align: left;
+    background-color: #FFF;
+    color: #666;
+}
