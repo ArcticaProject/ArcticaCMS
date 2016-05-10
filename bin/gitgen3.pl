@@ -44,7 +44,7 @@ if (-d $GitHOME) {
 	my %Changes;
 	chdir($GitHOME);
 #	system("$GitBIN pull");
-	open(GITPULL,"$GitBIN pull $GitURL 2>&1|");
+	open(GITPULL,"LANG=C $GitBIN pull $GitURL 2>&1|");
 	my @GitPULLOutput = <GITPULL>;
 	close(GITPULL);
 	if ((@GitPULLOutput[0] =~ /Already up-to-date/) or (@GitPULLOutput[2] =~ /Already up-to-date/)) {
