@@ -145,7 +145,7 @@ sub theDirPharser {
 
 		if ($lOrder{'ordered'}) {
 #			print "Start generating LIST:\n";
-			foreach my $key (sort keys $lOrder{'ordered'}) {
+			foreach my $key (sort keys %$lOrder{'ordered'}) {
 				if ($lOrder{'pages'}{$lOrder{'ordered'}{$key}}) {
 					$mainRHCnt++;
 					$theResultingHash{$mainRHCnt}{'type'} = "p";
@@ -171,7 +171,7 @@ sub theDirPharser {
 		}
 
 		if ($lOrder{'pages'}) {
-			foreach my $name (sort keys $lOrder{'pages'}) {
+			foreach my $name (sort keys %$lOrder{'pages'}) {
 				unless (($lOrder{'done'}{$name}) or ($name eq "index")) {
 					$mainRHCnt++;
 					$theResultingHash{$mainRHCnt}{'type'} = "p";
@@ -184,7 +184,7 @@ sub theDirPharser {
 		}
 
 		if ($lOrder{'dir'}) {
-			foreach my $name (sort keys $lOrder{'dir'}) {
+			foreach my $name (sort keys %$lOrder{'dir'}) {
 				unless ($lOrder{'done'}{$name}) {
 					$mainRHCnt++;
 					my %gotHash = theDirPharser($theDIR,$name);

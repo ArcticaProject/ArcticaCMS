@@ -151,7 +151,7 @@ sub fetchMarkDownHTML {
 				foreach my $refx (split(/\//,$pageRef)) {
 #					print "$buildPath ($refx)";
 					my $gotNameMatch = 0;
-					foreach my $key (keys $checkData) {
+					foreach my $key (keys %$checkData) {
 #						print "$key<br>\n";
 						if ($checkData->{$key}{'name'} eq $refx) {
 							$gotNameMatch = 1;
@@ -341,7 +341,7 @@ sub makeMenuList {
 	my $HTML;
 	my $nameHash;
 	$HTML = "<ul class=\"verticalMenuUL\">";
-	foreach my $key (sort keys $menuData) {
+	foreach my $key (sort keys %$menuData) {
 #		print "K: $key	\n";
 		my $mouseOverDescription;
 		if (length($menuData->{$key}{'description'}) > 2) {
